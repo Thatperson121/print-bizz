@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-900 text-gray-100;
+  }
+}
+
+.neon-glow {
+  text-shadow: 0 0 10px #4ade80, 0 0 20px #4ade80, 0 0 30px #4ade80;
+}
+
+.card-hover {
+  @apply transition-all duration-300 hover:scale-105 hover:shadow-[0_0_15px_rgba(74,222,128,0.3)];
+}
+
+.gaming-gradient {
+  background: linear-gradient(135deg, #1f2937 0%, #111827 100%);
+}
+
+.button-glow {
+  @apply transition-all duration-300 hover:shadow-[0_0_15px_rgba(74,222,128,0.5)];
+}
